@@ -15,3 +15,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
+
+# Namespace
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
